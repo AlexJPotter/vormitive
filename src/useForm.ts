@@ -1,5 +1,6 @@
-import { ref, provide, readonly, watch } from 'vue';
-import type { Ref } from 'vue';
+import { provide, readonly, watch } from '@vue/runtime-core';
+import { ref } from '@vue/reactivity';
+import type { Ref } from '@vue/reactivity';
 import { getEverythingTouchedOf } from './helpers/getEverythingTouchedOf';
 import { setFieldTouchedIn } from './helpers/setFieldTouchedIn';
 import { setFieldValueIn } from './helpers/setFieldValueIn';

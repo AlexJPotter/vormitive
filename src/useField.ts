@@ -1,5 +1,5 @@
-import { computed } from 'vue';
-import type { Ref } from 'vue';
+import { computed } from '@vue/runtime-core';
+import type { Ref } from '@vue/reactivity';
 import { useFormContext } from './useFormContext';
 import { getIn } from './helpers/helpers';
 

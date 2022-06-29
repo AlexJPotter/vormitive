@@ -1,5 +1,5 @@
-import { inject } from 'vue';
-import type { InjectionKey } from 'vue';
+import { inject } from '@vue/runtime-core';
+import type { InjectionKey } from '@vue/runtime-core';
 import { getInjectionKeys } from './injectionKeys';
 import type { FormContext } from './types/FormContext';
 

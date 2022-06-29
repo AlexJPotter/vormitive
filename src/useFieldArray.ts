@@ -1,4 +1,4 @@
-import type { Ref } from 'vue';
+import type { Ref } from '@vue/reactivity';
 import { clone, getIn, setIn } from './helpers/helpers';
 import { TouchedOf } from './types/TouchedOf';
 import { useField } from './useField';

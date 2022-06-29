@@ -1,4 +1,4 @@
-import type { InjectionKey } from 'vue';
+import type { InjectionKey } from '@vue/runtime-core';
 import type { HandleSubmit } from './types/HandleSubmit';
 import type { ReadonlyRef } from './types/ReadonlyRef';
 import type { SetFieldTouched } from './types/SetFieldTouched';

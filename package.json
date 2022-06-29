@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,7 +15,6 @@
     "build": "tsc --noEmit && tsdx build --transpileOnly",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsc --noEmit && tsdx build --transpileOnly",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
@@ -48,13 +47,14 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "7.0.8",
+    "@vue/reactivity": "^3.2.37",
+    "@vue/runtime-core": "^3.2.37",
     "@vue/tsconfig": "^0.1.3",
     "husky": "8.0.1",
     "size-limit": "7.0.8",
     "tsdx": "0.14.1",
     "tslib": "2.4.0",
-    "typescript": "^4.7.4",
-    "vue": "3.2.37"
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "immer": "^9.0.15"

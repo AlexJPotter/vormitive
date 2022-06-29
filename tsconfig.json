@@ -31,5 +31,10 @@
     "forceConsistentCasingInFileNames": true,
     // `tsdx build` ignores this option, but it is commonly used when type-checking separately with `tsc`
     "noEmit": true,
+
+    "types": [
+      "@vue/runtime-core/dist/runtime-core",
+      "@vue/reactivity/dist/reactivity"
+    ]
   }
 }
