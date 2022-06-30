@@ -1,0 +1,32 @@
+{
+  "version": "0.3.0",
+  "license": "MIT",
+  "main": "dist/informl.cjs.min.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && rollup --config && tsc --emitDeclarationOnly"
+  },
+  "peerDependencies": {
+    "vue": ">=3.2.37"
+  },
+  "name": "informl",
+  "author": "Alex Potter",
+  "module": "dist/informl.esm.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.75.7",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "2.4.0",
+    "typescript": "^4.7.4",
+    "vue": "3.2.37"
+  },
+  "dependencies": {
+    "klona": "^2.0.5"
+  }
+}
