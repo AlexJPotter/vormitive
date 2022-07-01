@@ -24,7 +24,7 @@ Unlike many other libraries, `vormitive` does not define any Vue components, but
 
 This gives you **total control** over the look, feel, and behaviour of your form components. It also allows you to build the form abstractions that suit your specific needs, instead of requiring you to bend existing abstractions to your will.
 
-```tsx
+```vue
 // File: `TextInputField.vue`
 <script setup lang="ts">
 import { computed, toRef } from 'vue';
@@ -85,7 +85,7 @@ Call `useForm` with appropriate parameters to create a new form context within t
 
 The return value of `useForm` contains a bunch of helpful things. In particular, the `handleSubmit` helper which, when called, will mark all the fields on the form as touched, run the validation, and mark the form as submitting while your handler is running.
 
-```tsx
+```vue
 // File: `MyForm.vue`
 <script setup lang="ts">
 import { useForm, type ValidationResult } from 'vormitive';
