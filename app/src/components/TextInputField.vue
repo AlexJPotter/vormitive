@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, toRef } from 'vue';
-import { useFormContext, useField } from 'informl';
+import { useFormContext, useField } from 'vormitive';
 import {
   textInputFieldErrorTestId,
   textInputFieldInputTestId,

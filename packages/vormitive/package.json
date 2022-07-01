@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0",
+  "version": "0.1.0",
   "license": "MIT",
-  "main": "dist/informl.cjs.min.js",
+  "main": "dist/vormitive.cjs.min.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
@@ -12,9 +12,9 @@
   "peerDependencies": {
     "vue": ">=3.2.37"
   },
-  "name": "informl",
+  "name": "vormitive",
   "author": "Alex Potter",
-  "module": "dist/informl.esm.js",
+  "module": "dist/vormitive.esm.js",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -30,3 +30,4 @@
     "klona": "^2.0.5"
   }
 }
+

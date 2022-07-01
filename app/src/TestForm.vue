@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFieldArray, useFormContext } from 'informl';
+import { useFieldArray, useFormContext } from 'vormitive';
 import { ref } from 'vue';
 import TextInputField from './components/TextInputField.vue';
 import { TodoFormModel } from './FormModel';

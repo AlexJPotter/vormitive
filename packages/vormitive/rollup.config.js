@@ -7,23 +7,23 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: 'dist/informl.cjs.js',
+      file: 'dist/vormitive.cjs.js',
       format: 'cjs',
       sourcemap: false,
     },
     {
-      file: 'dist/informl.cjs.min.js',
+      file: 'dist/vormitive.cjs.min.js',
       format: 'cjs',
       sourcemap: true,
       plugins: [terser()],
     },
     {
-      file: 'dist/informl.esm.js',
+      file: 'dist/vormitive.esm.js',
       format: 'esm',
       sourcemap: false,
     },
     {
-      file: 'dist/informl.esm.min.js',
+      file: 'dist/vormitive.esm.min.js',
       format: 'esm',
       sourcemap: true,
       plugins: [terser()],

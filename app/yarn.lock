@@ -294,24 +294,17 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-immer@^9.0.15:
-  version "9.0.15"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.15.tgz#0b9169e5b1d22137aba7d43f8a81a495dd1b62dc"
-  integrity sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==
-
-informl@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/informl/-/informl-0.2.0.tgz#be66cafde1317bd34c6a70ed8d996fe509208d6d"
-  integrity sha512-ojSaGMvL1SHdMtcx16rlbVYdSLYtwYkLCQk+Kpgvd8SEhtDTGSOMVrdVgY0JGtf1eI2WaBUZ4xYHu66DJv/oIQ==
-  dependencies:
-    immer "^9.0.15"
-
 is-core-module@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.9.0.tgz#e1c34429cd51c6dd9e09e0799e396e27b19a9c69"
   integrity sha512-+5FPy5PnwmO3lvfMb0AsoPaBG+5KHUI0wYFXOtYPnVVVspTFUuMZNfNaNVRt3FZadstu2c8x23vykRW/NBoU6A==
   dependencies:
     has "^1.0.3"
+
+klona@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
+  integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
 
 magic-string@^0.25.7:
   version "0.25.9"
@@ -396,6 +389,13 @@ vite@^2.9.9:
     rollup "^2.59.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vormitive@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vormitive/-/vormitive-0.1.0.tgz#c5293da6d6ddeebf929be080fbd7858fb3b79b1d"
+  integrity sha512-vSiiEyGz+lKeRQvdXUj2JHaQK55DTsipFltuiuqVdjImyQtnYlrjzaejwijmkgfwohNweF/zdpzXTdmJG1PsEw==
+  dependencies:
+    klona "^2.0.5"
 
 vue-tsc@^0.34.7:
   version "0.34.17"

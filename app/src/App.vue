@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useForm, ValidationResult } from 'informl';
+import { useForm, ValidationResult } from 'vormitive';
 import { FormModel } from './FormModel';
 import { getRandomId } from './helpers';
 import TestForm from './TestForm.vue';

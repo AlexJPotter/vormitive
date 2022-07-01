@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "start:app": "yarn --cwd packages/informl build && yarn --cwd packages/informl link && yarn --cwd ./app link informl && yarn --cwd ./app && yarn --cwd ./app run dev",
+    "start:app": "yarn --cwd packages/vormitive build && yarn --cwd packages/vormitive link && yarn --cwd ./app link vormitive && yarn --cwd ./app && yarn --cwd ./app run dev",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "prettier": "prettier --config .prettierrc.json --write \"{app,cypress,packages}/**/*.{ts,tsx,js,jsx,vue}\""
